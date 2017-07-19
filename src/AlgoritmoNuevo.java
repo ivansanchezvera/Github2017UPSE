@@ -11,12 +11,13 @@ public class AlgoritmoNuevo {
 		do{
 			System.out.println("Tu nota es " + nota);
 			
-			if(i>5)
+			if(i>20)
 			{
 				break;
 			}
 			i++;
 		}while(copiaEnElExamen);
+		System.out.println("Buena Onda!");
 	}
 	
 	public static void imprimirTesis()
